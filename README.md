@@ -2,7 +2,7 @@
 
 add following function to .zshrc:
 
-'''sh
+'''
 h () {
 	if [ "$#" -eq 0 ]
 	then
