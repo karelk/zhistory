@@ -83,13 +83,8 @@ else:
 
         if max(match) == A or (line == '' and max(match) < A):
             for i in range(len(context)):
-
                 print('\033[00;38;5;102m' + context[i][6:30] + '\033[0m  ', end='')
-                if context[i][32:33] == '#':
-                    print('\033[32m' + context[i][32:-1] + '\033[0m')
-                else:
-                    print(re.sub(PATTERNS, RED, context[i][32:]), end='')
-
+                print(re.sub(PATTERNS, RED, context[i][32:]), end='')
             print(NL, end='')
             del context[:]
 
