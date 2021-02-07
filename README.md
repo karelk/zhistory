@@ -2,7 +2,7 @@
 
 add following function to .zshrc:
 
-'''
+```sh
 h () {
 	if [ "$#" -eq 0 ]
 	then
@@ -12,7 +12,7 @@ h () {
 		history -t '(%a) %Y-%b-%d %H:%M' 0 | /usr/local/bin/zhistory.py $@
 	fi
 }
-'''
+```
 
 and search throuh zsh history using grep-like options:
 
