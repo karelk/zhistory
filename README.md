@@ -16,6 +16,7 @@ h () {
 
 and search throuh zsh history using grep-like options:
 
+```
  -A NUM
     print NUM lines after matching line
 
@@ -36,5 +37,6 @@ and search throuh zsh history using grep-like options:
 
  -w, --word
     match whole words
+```
 
 
