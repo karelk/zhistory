@@ -14,7 +14,7 @@ h () {
 }
 ```
 
-and search throuh zsh history using grep-like options:
+and search through zsh history using grep-like options:
 
 ```
  -A NUM
